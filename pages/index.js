@@ -1,6 +1,8 @@
+import AboutMe from "../components/aboutMe"
+
 
 export default function Home() {
   return (
-    <h1>Testing</h1>
+    <AboutMe />
   )
 }

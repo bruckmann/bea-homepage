@@ -1,0 +1,14 @@
+.aboutMe {
+  width: 100%;
+  height: 50%;
+  border-radius: 14px;
+  margin: auto;
+  margin-top: 30%;
+  text-align: center;
+  box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.25);
+  padding: 5%;
+}
+
+.aboutMe .avatarAboutMe {
+  top: -100px;
+}
