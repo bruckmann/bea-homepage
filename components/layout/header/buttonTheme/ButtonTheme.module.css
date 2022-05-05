@@ -1,0 +1,20 @@
+.buttonTheme {
+  display: flex;
+  align-items: center;
+}
+
+
+.buttonTheme .boxIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  color: black;
+}
+
+.buttonTheme .switchButton {
+  margin-right: 10px;
+  margin-left: 10px;
+}
