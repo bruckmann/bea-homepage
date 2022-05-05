@@ -6,7 +6,7 @@ import styles from "./ButtonTheme.module.css"
 
 function ButtonTheme() {
   
-  const [isChecked, setIsChecked] = useState(true)
+  const [isChecked, setIsChecked] = useState(false)
   const { toggleColorMode } = useColorMode()
 
   return(
