@@ -1,8 +1,12 @@
+import { Box } from "@chakra-ui/react"
 import AboutMe from "../components/aboutMe"
-
+import ContactButtons from "../components/contactButtons"
 
 export default function Home() {
   return (
-    <AboutMe />
+      <Box>
+        <AboutMe />
+        <ContactButtons />
+      </Box>
   )
 }
