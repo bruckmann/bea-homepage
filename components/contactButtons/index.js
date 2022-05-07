@@ -1,41 +1,26 @@
-import { Flex, Button } from "@chakra-ui/react"
-import { FiDownload, FiLinkedin, FiMessageSquare } from "react-icons/fi"
-
+import { Flex } from "@chakra-ui/react"
+import { FiDownload, FiLinkedin } from "react-icons/fi"
+import PrimaryButton from "../primaryButton"
+import ContactMe from "../contactMe"
 
 function ContactButtons() {
-  return(
-    <Flex 
-      width="80%" 
-      justifyContent="space-evenly" 
+  return (
+    <Flex
+      width="80%"
+      justifyContent="space-evenly"
       margin="auto"
     >
-      <Button 
-        rightIcon={<FiLinkedin />}
-        size="lg"
-        bgColor="blue.400"
-        color="white"
-      >
-        LinkedIn
-      </Button>
-      <Button 
-        rightIcon={<FiDownload />}
-        bgColor="blue.400"
-        size="lg"
-        color="white"
-      >
+      <a href="https://www.linkedin.com/in/beatriz-borba/" target="__blank">
+        <PrimaryButton icon={<FiLinkedin />}>
+          LinkedIn
+        </PrimaryButton>
+      </a>
+      <PrimaryButton icon={<FiDownload />}>
         Donwload my CV
-      </Button>
-      <Button 
-        rightIcon={<FiMessageSquare />}
-        bgColor="blue.400"
-        size="lg"
-        color="white"
-      >
-        Contact Me
-      </Button>
-    </Flex>
+      </PrimaryButton>
+      <ContactMe />
+    </Flex >
   )
 }
-
 
 export default ContactButtons

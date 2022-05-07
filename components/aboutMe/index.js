@@ -2,7 +2,6 @@ import { Box, Avatar, useColorModeValue, Text } from "@chakra-ui/react"
 import styles from "./AboutMe.module.css"
 
 function AboutMe() {
-
   const avatarBorder = `4px solid ${useColorModeValue("#FFF", "#070707")}`
 
   return (
