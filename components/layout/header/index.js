@@ -7,9 +7,9 @@ function NavBar() {
   return (
     <Box className={styles.navbar}>
       <Box className={styles.navbarLinks}>
-        <Link>About me</Link>
-        <Link>Work</Link>
-        <Link>Courses</Link>
+        <Link href="/">About me</Link>
+        <Link href="/work">Work</Link>
+        <Link href="/courses">Courses</Link>
       </Box>
 
       <ButtonTheme />
